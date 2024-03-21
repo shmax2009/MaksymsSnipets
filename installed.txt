@@ -1,0 +1,29 @@
+com.herokuapp.vuesion
+com.vermouthx.xcode-theme
+atom-one
+com.berzanmikaili.intellij.monokai_pro
+com.jetbrains.gerryPurpleTheme
+com.elliotwaite.godot_theme
+com.jetbrains.CyanTheme
+com.hiberbee.intellij.hiberbee-theme
+Rider UI Theme Pack
+monokai-pro
+com.vermouthx.idea
+com.github.shubham076.darkthemes
+com.github.catppuccin.jetbrains
+com.vecheslav.darculaDarkerTheme
+com.markskelton.one-dark-theme
+com.tylerthrailkill.intellij.solarized
+com.elliotwaite.cyberpunk_theme
+com.arcticicestudio.nord.jetbrains
+io.github.xiaopihai7256
+Twitch Dark Theme
+elegant-theme
+com.github.voml.neo_theme
+com.wakatime.intellij.plugin
+com.samdark.intellij-visual-studio-code-dark-plus
+org.asciidoctor.intellij.asciidoc
+ru.adelf.idea.dotenv
+com.github.copilot
+codiumai.codiumai
+com.brandiico.jetbrains-nightfall-theme

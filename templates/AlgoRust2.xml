@@ -1,0 +1,7 @@
+<templateSet group="AlgoRust">
+  <template name=".scan" value="struct Scanner {&#10;    stdin: std::io::Stdin,&#10;    buf: Vec&lt;String&gt;,&#10;}&#10;&#10;impl Scanner {&#10;    fn new() -&gt; Self {&#10;        Self {&#10;            stdin: std::io::stdin(),&#10;            buf: Vec::new(),&#10;        }&#10;    }&#10;    fn next&lt;T: std::str::FromStr&gt;(&amp;mut self) -&gt; T {&#10;        loop {&#10;            if let Some(t) = self.buf.pop() {&#10;                return t.parse().ok().expect(&quot;Parse error&quot;);&#10;            }&#10;            let mut s = String::new();&#10;            self.stdin.read_line(&amp;mut s).expect(&quot;Read error&quot;);&#10;            self.buf = s.split_whitespace().rev().map(String::from).collect();&#10;        }&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RUST_FILE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,8 @@
+<templateSet group="Feuerwehr">
+  <template name="_stuff" value="@OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)&#10;private Stuff $name$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
